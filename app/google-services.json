@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "232814125127",
+    "firebase_url": "https://ksb-quiz.firebaseio.com",
+    "project_id": "ksb-quiz",
+    "storage_bucket": "ksb-quiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232814125127:android:1ae3f7401c6a2ad0e59162",
+        "android_client_info": {
+          "package_name": "com.example.ksbnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232814125127-jbaf9h8ssruscdum9gbjmrm9pg379j9k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ksbnews",
+            "certificate_hash": "e495d31ce22a1b9f1f3932a6a536ca34c005f118"
+          }
+        },
+        {
+          "client_id": "232814125127-c3td971tp1gdol49asfr0o3n53jaot81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSl_sApZ0fAW02sYYvgR_RrF3PnFUThh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232814125127-c3td971tp1gdol49asfr0o3n53jaot81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

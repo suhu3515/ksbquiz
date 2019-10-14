@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LoginActivity"
+    android:background="@android:color/white">
+
+
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/banner_img"
+        android:src="@drawable/banner1" />
+    <TextView
+        android:id="@+id/cap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="May I have your Mobile Number?"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:paddingHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/banner_img"/>
+
+    <EditText
+        android:id="@+id/et_mob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cap"
+        android:layout_marginTop="25dp"
+        android:paddingHorizontal="20dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:drawablePadding="10dp"
+        android:hint="Enter your Mobile Number"
+        android:drawableLeft="@drawable/ic_phone"/>
+
+    <Button
+        style="@style/TextAppearance.AppCompat.Widget.Button"
+        android:id="@+id/btn_otp"
+        android:text="Continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/et_mob"
+        android:layout_marginTop="25dp"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"/>
+
+
+</RelativeLayout>
